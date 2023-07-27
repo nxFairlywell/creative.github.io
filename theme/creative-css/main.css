@@ -1,0 +1,78 @@
+body{
+    background-color: #ffffff;
+}
+
+.navbar{
+    background-color: #082231 !important;
+    /*border-bottom: 1px solid black;*/
+    justify-content: center;
+}
+
+.navbar-brand{
+    display:block;
+}
+
+.container{
+    box-sizing: border-box;
+    justify-content: center;
+    text-align: center;
+    padding-top:100px;
+}
+
+.title-brand-color{
+    color:#3180ae;
+    font-family: 'Almarai', sans-serif;
+    font-size:2rem;
+    font-weight: bold;
+}
+
+.text-content-container{
+    word-wrap: break-word;
+    width:90vw;
+    font-size:1.5rem;
+    font-family: 'Almarai', sans-serif;
+    font-weight: light;
+    color: #0d3953;
+}
+
+.card-text{
+    font-size:1.05rem;
+    font-family: 'Almarai', sans-serif;
+    font-weight: light;
+}
+
+.service-content{
+    width:100%;height:100%;background-color: #ffffff;border-radius: 7px;
+    justify-content: center;
+    transition: background-color linear .2s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.service-content:hover{
+    background-color: #686985;
+}
+
+.service-content-circle{
+    border-radius: 50%; background-color: #686985; width:208px;height:208px;color:white;display: flex;justify-content: center;align-items: center;font-family: 'Almarai', sans-serif;font-size: 1.8rem;
+    transition: background-color linear .2s, color linear .2s;
+}
+
+.service-content-text{
+    color: #082231;
+    transition: color linear .2s;
+    font-size: 1.2rem;
+    font-family: 'Almarai', sans-serif;
+}
+
+.service-content:hover .service-content-circle{
+    background-color: white;
+    color:#686985;
+}
+
+.service-content:hover .service-content-text{
+    color: white;
+}
+
+*:hover{
+    cursor: default;
+}
